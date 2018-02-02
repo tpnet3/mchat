@@ -1,0 +1,22 @@
+name: mchat
+
+install:
+    - curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
+    - sudo apt-get install -y nodejs
+
+information:
+    title: Create chat program based on meteor
+
+exercises:
+    -
+        section: 첫번째 섹션
+        lecture:
+            -
+                subject: 첫번째 목표
+                guide: |
+                    echo "# mchat" >> README.md
+                    git init
+                    git add README.md
+                    git commit -m "first commit"
+                    git remote add origin https://github.com/sotolab/mchat.git
+                    git push -u origin master
