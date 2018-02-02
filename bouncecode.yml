@@ -26,3 +26,5 @@ exercises:
                     git remote add origin https://github.com/sotolab/mchat.git
                     
                     git push -u origin master
+                run:
+                    - ((bouncecode open -p 3000 http://localhost:3000/) &) && meteor --allow-superuser
