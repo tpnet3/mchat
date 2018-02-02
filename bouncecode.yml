@@ -4,8 +4,8 @@ install:
     - curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
     - sudo apt-get install -y nodejs
     - curl https://install.meteor.com/ | sh
-    - sudo chown -Rh root .meteor/local
     - meteor build --allow-superuser
+    - sudo chown -Rh root .meteor/local
 
 information:
     title: Create chat program based on meteor
