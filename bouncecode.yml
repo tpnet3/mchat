@@ -13,7 +13,7 @@ exercises:
         lecture:
             -
                 subject: 첫번째 목표
-                guide: |
+                guide: >
                     echo "# mchat" >> README.md
                     git init
                     git add README.md
